@@ -10,9 +10,10 @@ TEST(IndependentMethod, ResetsToZero) {
 	independentMethod(i);
 	EXPECT_EQ(0, i);
 
-	// i = 12;
-	//independentMethod(i);
-	//EXPECT_EQ(0,i);
+	i = 12;
+	independentMethod(i);
+	EXPECT_EQ(1,i);
+//	EXPECT_EQ(0,i);
 }
 
 TEST(IndependentMethod, ResetsToZero2) {
