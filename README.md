@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ekuijpers/travis-example.svg?branch=master)](https://travis-ci.org/ekuijpers/travis-example) [![codecov](https://codecov.io/gh/ekuijpers/travis-example/branch/master/graph/badge.svg)](https://codecov.io/gh/ekuijpers/travis-example)
+[![Build Status](https://travis-ci.org/ekuijpers/travis-example.svg?branch=master)](https://travis-ci.org/ekuijpers/travis-example.svg) [![codecov](https://codecov.io/gh/ekuijpers/travis-example/branch/master/graph/badge.svg)](https://codecov.io/gh/ekuijpers/travis-example)
 
 This README is modified for educational purposes by E.A.Kuijpers. Changed the testcase
 
