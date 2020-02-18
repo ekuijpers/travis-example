@@ -8,6 +8,7 @@ env:
     # Global build options and C++ flags
     - CXX_FLAGS="-Wall -pedantic -Werror -Wno-variadic-macros -Wno-long-long -Wno-shadow"
     # Misc
+    - CODECOV_TOKEN="3d0efe40-9491-49a0-b276-3dc349acaac8"
     - RUN_TESTS=true
     - COVERAGE=false
 
@@ -68,4 +69,6 @@ script:
 
 
 after_success:
-    - codecov -t c376990f-2ad6-4f7b-bbdb-5378a52e295c -X gcov
+    #- codecov -t c376990f-2ad6-4f7b-bbdb-5378a52e295c -X gcov
+     - codecov -t 3d0efe40-9491-49a0-b276-3dc349acaac8 -X gcov
+    # - bash <(curl -s https://codecov.io/bash)
